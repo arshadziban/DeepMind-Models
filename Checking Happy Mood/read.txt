@@ -1,0 +1,1 @@
+I use my own image as the dataset and do not include additional images. As a result, the predictions sometimes do not perform as expected.
