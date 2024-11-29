@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Read dataset
-quran_data = pd.read_excel('quran_dataset.xlsx')
+quran_data = pd.read_excel('./quran_dataset.xlsx')
 
 # Giving unique Surah names in serial order based on SurahNo
 surah_names = (
