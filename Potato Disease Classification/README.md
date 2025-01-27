@@ -34,5 +34,19 @@ The dataset used for training and validation is sourced from the [PlantVillage D
 You can install the required libraries using:
 
 ```bash
-pip install tensorflow keras numpy matplotlib
+pip install tensorflow numpy matplotlib
+```
 
+## How It Works
+
+1. **Image Upload**: Users upload an image of a potato leaf through the web application.
+2. **Image Preprocessing**: The image is resized and normalized to match the input shape required by the model.
+3. **Prediction**: The preprocessed image is passed through the trained model to predict the class label.
+4. **Result Display**: The predicted class label is displayed on the web interface.
+
+## Project Files
+
+- `app.py`: Flask application code for deploying the model.
+- `plant_disease_model.h5`: Pre-trained model file.
+- `plant_disease_web_app.html`: HTML template for the web interface.
+- `uploads/`: Temporary storage for uploaded images.
