@@ -1,7 +1,0 @@
-your_project/
-├── app.py
-├── templates/
-   └── plant_disease_web_app.html
-
-
-pip install flask tensorflow numpy pillow
